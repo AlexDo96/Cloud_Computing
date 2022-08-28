@@ -1,0 +1,16 @@
+I. Initialize project:
+$ npm init
+
+II. Inititalize dependencies:
+AWS-SDK: 
+$ npm install aws-sdk
+
+EJS:
+$ npm install ejs
+
+Nodemon:
+$ npm install nodemon
+
+Express:
+$ npm install express
+
