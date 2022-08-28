@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Form</title>
+</head>
+<body>
+<form action="/save" method="get">
+  <label>
+    Year:<input name="year" type="text" readonly="readonly"/>
+  </label><br/>
+  <label>
+    Title:<input name="name" type="text" readonly="readonly"/>
+  </label><br/>
+  <p>Year & Name lần lượt là hashkey và sortkey nên không được phép edit
+    nên được set thành readonly ( nếu set thành disabled params sẽ ko được submit cùng form )
+  </p>
+  <label>
+    Type:<input name="type" type="text"/>
+  </label><br/>
+  <label>
+    Author:<input name="author" type="text"/>
+  </label><br/>
+  <input type="submit" value="Save"/>
+</form>
+<input type="button" onclick="location.href='/'" value="Back"/>
+</body>
+</html>
