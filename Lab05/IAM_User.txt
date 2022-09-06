@@ -1,0 +1,16 @@
+User details
+------------------------
+User name: admin
+AWS access type: Programmatic access - with an access key
+Permissions boundary: Permissions boundary is not set
+
+{
+   accessKeyId: 'AKIAXQ4DUQKFXGDDBIPT',
+   secretAccessKey: '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',
+   region: 'ap-southeast-1'
+}
+
+Permissions summary
+------------------------
+AmazonDynamoDBFullAccess
+AmazonS3FullAccess

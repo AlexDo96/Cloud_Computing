@@ -1,0 +1,16 @@
+I. Choose a database creation method:
+Easy create
+
+II. Engine options:
+MySQL
+
+III. DB instance size:
+Free tier
+
+IV. 
+DB Cluster Identifier: database-1
+DB Instance Identifier: database-1
+
+V. 
+Master username: admin
+Master password: administrator

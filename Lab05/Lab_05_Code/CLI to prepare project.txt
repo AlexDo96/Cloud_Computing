@@ -14,6 +14,9 @@ $ npm install nodemon
 Express:
 $ npm install express
 
+Multer:
+$ npm install multer
+
 III. Inititalize all dependencies listed in package.json:
 $ npm install
 

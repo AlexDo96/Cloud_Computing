@@ -7,7 +7,7 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 app.get('/', (request, response) => {
-    return response.render('index');
+    return response.render('index_BT');
 });
 
 app.listen(3000, () => {
