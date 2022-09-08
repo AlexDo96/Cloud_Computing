@@ -1,0 +1,7 @@
+Distribution Origin details
+------------------------
+Origin domain:uploads3-toturial-bucket.s3.ap-southeast-1.amazonaws.com
+Name: uploads3-toturial-bucket.s3.ap-southeast-1.amazonaws.com
+Origin access identity: access-identity-uploads3-toturial-bucket.s3.ap-southeast-1.amazonaws.com
+
+Domain name: https://d3sm3c7d85ow8g.cloudfront.net

@@ -1,0 +1,36 @@
+I. Initialize project:
+$ npm init
+
+II. Inititalize dependencies:
+AWS-SDK: 
+$ npm install aws-sdk
+
+EJS:
+$ npm install ejs
+
+Nodemon:
+$ npm install nodemon
+
+Express:
+$ npm install express
+
+Multer:
+$ npm install multer
+
+Uuid:
+$ npm install uuid
+
+III. Inititalize all dependencies listed in package.json:
+$ npm install
+
+IV. Run script:
+$ npm run xxx
+
+---> xxx: Check in package.json
+"scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+  
+Example:  
+$ npm run start
