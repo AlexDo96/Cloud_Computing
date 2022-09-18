@@ -10,7 +10,7 @@ let docClient = new AWS.DynamoDB.DocumentClient();
 
 console.log('Start importing');
 
-let allBooks = JSON.parse(fs.readFileSync(__dirname+'/bookdata.json', 'utf-8'));
+let allBooks = JSON.parse(fs.readFileSync(__dirname + '/bookdata.json', 'utf-8'));
 
 console.log(allBooks);
 allBooks.forEach((book) => {
@@ -24,10 +24,10 @@ allBooks.forEach((book) => {
     }
   };
 
-  docClient.put(params,(err, data) => {
+  docClient.put(params, (err, data) => {
     if (err) {
       console.error(`Unable to add book ${book.title}, ${JSON.stringify(err, null, 2)}`);
-    }else{
+    } else {
       console.log(`Book created ${book.name}`);
     }
   });
